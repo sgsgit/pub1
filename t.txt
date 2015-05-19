@@ -1,2 +1,26 @@
-txt1 hxyhxl hxygithub
 
+
+
+<script>
+
+// all html js css merge to one file // png.base64.data.uri
+
+//alert ( 1-11) ;
+
+   var sa=( 'b' +'<style>body { background-color:red }  </style> '+ '<'+'script' +'>' +' alert(1-2) ; <'+'/script>' )
+//alert(sa );
+
+// #### merge css.style.tag js.script.tag merge to big.one.b64.str
+
+   var s64 = btoa  (sa ) // a..is base64 b.src
+//alert (s64)
+//alert( atob(s64) )
+
+//write css js inside  sa.str
+//document.write(sa )
+
+  function show64 (s) { document.write( atob (s) ) ; }
+
+  show64(s64) ;
+
+</script>
